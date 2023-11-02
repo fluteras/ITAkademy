@@ -14,4 +14,4 @@ require_once("../src/Entity/Dice.php");
 require_once("../src/Entity/CollectionRandomGenerator.php");
 require_once("../src/Entity/CollectionGameMasterItem.php");
 require_once("../src/Entity/GameMaster.php");
-require_once("../src/Controller/index.php");
+require_once("../src/Controller/GameMasterController.php");
