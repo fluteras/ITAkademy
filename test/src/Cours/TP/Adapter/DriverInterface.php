@@ -1,6 +1,6 @@
 <?php
 namespace Adapter;
-interface DriverInterface
+interface DriverInterface 
 {
     public function doSave($data);
 }

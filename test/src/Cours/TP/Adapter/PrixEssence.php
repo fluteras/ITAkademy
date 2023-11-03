@@ -2,6 +2,10 @@
 namespace Adapter;
 class PrixEssence
 {
+    private $id = 1;
+    private $price = 15;
+    private $updateAt;
+
     /*
     Some other stuff
     */

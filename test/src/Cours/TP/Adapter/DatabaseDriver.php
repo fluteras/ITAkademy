@@ -10,6 +10,6 @@ class DatabaseDriver implements DriverInterface
     public function doSave(array $data)
     {
         $sqlQuery = implode(",", $data);
-        $db->doSave($sqlQuery, $this->connexion)
+        $db->doSave($sqlQuery, $this->connexion);
     }
 }
