@@ -11,11 +11,11 @@ namespace Adapter;
 // $prixEssenceRepo->save($prixEssence);
 
 
-$json = new Json();
+$json = new Json("prixEssence.txt");
 
 $jsonDriver = new JsonDriver($json);
 
-$prixEssenceRepo = new PrixEssenceRepository(new \DateTimeInterface(), $jsonDriver);
+$prixEssenceRepo = new PrixEssenceRepository(new \DateTime(), $jsonDriver);
 
 $prixEssence = new PrixEssence();
 
